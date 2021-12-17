@@ -116,7 +116,8 @@ input, select, textarea {
 	}
 
 		a:hover {
-			border-bottom-color: transparent;
+			/*border-bottom-color: transparent;*/
+      border-color: #49bf9d;
 			color: #49bf9d !important;
 			text-decoration: none;
 		}
@@ -136,6 +137,13 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
+  p:hover {
+			/*border-bottom-color: transparent;*/
+      border-color: #49bf9d;
+			color: #49bf9d !important;
+			text-decoration: none;
+		}
+
 	h1, h2, h3, h4, h5, h6 {
 		color: #787878;
 		font-weight: 400;
@@ -151,27 +159,55 @@ input, select, textarea {
 	h1 {
 		font-size: 2em;
 		line-height: 1.5em;
+
 	}
+  h1:hover {
+			/*border-bottom-color: transparent;*/
+      border-color: #49bf9d;
+			color: #49bf9d !important;
+			text-decoration: none;
+		}
 
 	h2 {
 		font-size: 1.5em;
 		line-height: 1.5em;
+    color: #585858;
 	}
+
 
 	h3 {
 		font-size: 1.25em;
 		line-height: 1.5em;
+    color: #585858;
 	}
+  h3:hover {
+			/*border-bottom-color: transparent;*/
+      border-color: #49bf9d;
+			color: #49bf9d !important;
+			text-decoration: none;
+		}
 
 	h4 {
 		font-size: 1.1em;
 		line-height: 1.5em;
 	}
+  h4:hover {
+			/*border-bottom-color: transparent;*/
+      border-color: #49bf9d;
+			color: #49bf9d !important;
+			text-decoration: none;
+		}
 
 	h5 {
 		font-size: 0.9em;
 		line-height: 1.5em;
 	}
+  h5:hover {
+			/*border-bottom-color: transparent;*/
+      border-color: #49bf9d;
+			color: #49bf9d !important;
+			text-decoration: none;
+		}
 
 	h6 {
 		font-size: 0.7em;
@@ -2169,6 +2205,7 @@ input, select, textarea {
 		ul li {
 			padding-left: 0.5em;
 		}
+
 
 		ul.alt {
 			list-style: none;
